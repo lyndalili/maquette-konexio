@@ -1,0 +1,7 @@
+var str = "ceci est un paragraphe contenant le caractère y";
+
+if (str.includes("y")) {
+  console.log("oui");
+} else {
+  console.log("non");
+}
