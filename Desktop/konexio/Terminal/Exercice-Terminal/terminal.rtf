@@ -1,0 +1,309 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset77 ZapfDingbatsITC;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10660\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop mv mondossier\
+usage: mv [-f | -i | -n] [-v] source target\
+       mv [-f | -i | -n] [-v] source ... directory\
+
+\f0 \uc0\u10140 
+\f1   desktop mkdir mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop touch hello\
+
+\f0 \uc0\u10140 
+\f1   desktop cd mondossier\
+\
+Autre exemple (Touch ./mon dossier/hello.txt)\
+
+\f0 \uc0\u10140 
+\f1   mondossier touch hello\
+
+\f0 \uc0\u10140 
+\f1   mondossier cat hello.txt\
+cat: hello.txt: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   mondossier cat hello\
+Hello\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv hello goodbay\
+
+\f0 \uc0\u10140 
+\f1   mondossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop cp -R mondossier nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cat\
+\
+\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop/nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier ls\
+goodbay\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd../\
+zsh: no such file or directory: cd../\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier ..cd\
+zsh: command not found: ..cd\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd..\
+zsh: command not found: cd..\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd ../\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R\
+usage: rm [-f | -i] [-dPRrvW] file ...\
+       unlink file\
+
+\f0 \uc0\u10140 
+\f1   desktop rm _R mondossier\
+rm: _R: No such file or directory\
+rm: mondossier: is a directory\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm goodbye.txt\
+rm: goodbye.txt: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm goodbye\
+rm: goodbye: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm goodbye\
+rm: goodbye: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm goodby\
+rm: goodby: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier goodby.txt\
+zsh: command not found: goodby.txt\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm -R goodby\
+rm: goodby: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   desktop\
+\
+\
+\
+\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop/nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier ls\
+goodbay\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd ../\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop cd nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier rm goodbay\
+
+\f0 \uc0\u10140 
+\f1   nouveaudossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R nouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   desktop touch monfichier\
+
+\f0 \uc0\u10140 
+\f1   desktop cp monfichier monnouveaufichier\
+
+\f0 \uc0\u10140 
+\f1   desktop mkdir mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop mv monnouveaufichier mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd mondossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop mv mondossier monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   monnouveaudossier ls\
+monnouveaufichier\
+\
+
+\f0 \uc0\u10140 
+\f1   monnouveaudossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop rm monfichier\
+
+\f0 \uc0\u10140 
+\f1   desktop mkdir dossiercp\
+
+\f0 \uc0\u10140 
+\f1   desktop cp -R monnouveaudossier dossiercp\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   desktop cd dossiercp\
+
+\f0 \uc0\u10140 
+\f1   dossiercp ls\
+monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   dossiercp rm -R dossiercp\
+rm: dossiercp: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   dossiercp cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R dossiercp\
+
+\f0 \uc0\u10140 
+\f1   desktop\
+\
+\
+\
+\
+\
+\
+
+\f0 \uc0\u10140 
+\f1   desktop cd mondossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv monfichier monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv monnouveaudossier monnouveaufichier\
+
+\f0 \uc0\u10140 
+\f1   mondossier cp monnouveaufichier monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv monnouveaufichier monfichier\
+
+\f0 \uc0\u10140 
+\f1   mondossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop mv mondossier monnouveaudossier\
+mv: rename mondossier to monnouveaudossier/mondossier: Not a directory\
+
+\f0 \uc0\u10140 
+\f1   desktop cd mondossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv mondossier monnouveaudossier\
+mv: mondossier: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv mondossier monnouveaudossier\
+mv: mondossier: No such file or directory\
+
+\f0 \uc0\u10140 
+\f1   mondossier mv monnouveaudossier mondossier\
+
+\f0 \uc0\u10140 
+\f1   mondossier cd monnouveaudossier\
+
+\f0 \uc0\u10140 
+\f1   monnouveaudossier touch fichier\
+
+\f0 \uc0\u10140 
+\f1   monnouveaudossier cd\
+
+\f0 \uc0\u10140 
+\f1   ~ cd desktop\
+
+\f0 \uc0\u10140 
+\f1   desktop rm -R mondossier\
+
+\f0 \uc0\u10140 
+\f1   desktop\
+\
+Touch .:mon dossier/hello.txt}
